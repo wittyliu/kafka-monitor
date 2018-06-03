@@ -105,11 +105,11 @@ public class KafkaMonitorConf {
 
 			// 乱码
 			this.msgBizName = new String(this.msgBizName.getBytes(Charset.forName("ISO-8859-1")),
-					Charset.forName("GBK"));
+					Charset.forName("UTF-8"));
 			this.msgTaskName = new String(this.msgTaskName.getBytes(Charset.forName("ISO-8859-1")),
-					Charset.forName("GBK"));
+					Charset.forName("UTF-8"));
 			this.msgContent = new String(this.msgContent.getBytes(Charset.forName("ISO-8859-1")),
-					Charset.forName("GBK"));
+					Charset.forName("UTF-8"));
 
 		} finally {
 			if (input != null) {
