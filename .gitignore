@@ -1,0 +1,9 @@
+/target/
+/logs/
+.settings/
+.project
+.factorypath
+.classpath
+
+/lib/
+ntfplatservice.properties
